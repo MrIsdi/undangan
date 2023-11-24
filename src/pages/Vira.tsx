@@ -2,7 +2,7 @@ import bg from "../assets/bg.png"
 import { useParams } from "react-router-dom"
 
 export default function Vira(){
-    const { name } : string = useParams()
+    const { name } = useParams()
     document.body.style.background = `url("${bg}") no-repeat rgba(0, 0, 0, 1)`
     document.body.style.backgroundSize = "cover"
     document.body.style.fontFamily = "'Montserrat', sans-serif"

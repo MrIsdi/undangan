@@ -10,7 +10,7 @@ export default function Vira(){
         <>
             <div className="bg-gradient-to-b from-[#00000087] to-teal-800 h-screen">
                 <div className="flex flex-col items-center">
-                    <h1 className="text-white md:text-4xl text-2xl md:my-8 my-0 mt-16">You are invited to</h1>
+                    <h1 className="text-white md:text-4xl text-xl md:my-8 my-0 mt-16">You are invited to</h1>
                     <h2 className="font-['My_Soul'] md:text-7xl text-5xl text-white mb-8">Graduation Party</h2>
                     <h2 className="font-['My_Soul'] md:text-7xl text-5xl text-white mb-12">Of</h2>
                     <h3 className="text-white md:text-5xl text-3xl">Delvira Syafna, S. Si</h3>

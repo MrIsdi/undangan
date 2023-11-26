@@ -13,7 +13,11 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-export default function AboutVira({ cls }: string){
+interface props{
+    cls: string
+}
+
+export default function AboutVira({ cls }: props){
     return(
         <>
             <div id="2023" className={`${cls} bg-cover bg-no-repeat bg-[rgba(0,0,0,1)] w-full duration-500 ease-in-out transition-all md:h-full`} style={{

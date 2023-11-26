@@ -36,7 +36,7 @@ export default function AboutVira({ cls }: props){
                             <p className="text-center mb-4 text-4xl font-bold">Saturday</p>
                             <p className="text-center mb-4 text-7xl font-bold">02</p>
                             <p className="text-center mb-4 text-4xl font-bold">December</p>
-                            <p className="text-center mb-4 text-4xl font-semibold">13:00-16:00 WIB</p>
+                            <p className="text-center mb-4 md:text-4xl text-xl font-semibold">13:00-16:00 WIB</p>
                         </div>
                     </div>
                     <Swiper
@@ -70,7 +70,7 @@ export default function AboutVira({ cls }: props){
                         </SwiperSlide>
                     </Swiper>
                     <div className="w-full mt-20">
-                        <h1 className="text-4xl text-white text-center">Map</h1>
+                        <h1 className="md:text-4xl text-2xl text-white text-center">Map</h1>
                         <div className="flex justify-center p-4">
                             <PlazaMipa />
                         </div>
@@ -78,13 +78,13 @@ export default function AboutVira({ cls }: props){
                     <div className="py-8">
                         <p className="text-2xl text-white text-center font-bold">Andalas University</p>
                         <p className="text-2xl text-white text-center font-thin italic">Plaza MIPA</p>
-                        <a href="#2023" className="relative w-[110px] block m-auto mt-8">
+                        <a href="#2023" className="relative md:w-[110px] w-[80px] block m-auto mt-8">
                             <img
                             alt="Calendar"
                             src="https://cdn.animaapp.com/projects/6560c42e4e4ddfb844c5cfc1/releases/6560c497b9e96f16e727a1ec/img/calendar-1.svg"
                             />
                             <img
-                                className="absolute top-[17%] right-[40%]"
+                                className="absolute top-[17%] md:right-[40%] right-[35%]"
                                 alt="Arrow"
                                 src="https://cdn.animaapp.com/projects/6560c42e4e4ddfb844c5cfc1/releases/6560c497b9e96f16e727a1ec/img/arrow-1.svg"
                             />

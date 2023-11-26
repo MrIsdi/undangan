@@ -9,7 +9,7 @@ export default function Vira(){
     const [ show, setShow ] = useState("hidden")
 
     const handleBtn = () =>{
-        setUp("top-[-100%]")
+        setUp("top-[-150%]")
         setShow("block")
     }
     return(

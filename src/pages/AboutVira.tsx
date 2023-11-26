@@ -50,22 +50,22 @@ export default function AboutVira({ cls }: props){
                         >
                         <SwiperSlide className="justify-center flex">
                             <div className="rounded-[20px] bg-contain bg-no-repeat bg-gradient-to-b from-[#00000087] to-teal-800">
-                                <img src={foto1} alt="foto1" className="md:w-[300px] md:h-[400px] h-[244px] rounded-[20px]" />
+                                <img loading="lazy" src={foto1} alt="foto1" className="md:w-[300px] md:h-[400px] h-[244px] rounded-[20px]" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="justify-center flex">
                             <div className="rounded-[20px] bg-contain bg-no-repeat bg-gradient-to-b from-[#00000087] to-teal-800">
-                                <img src={foto2} alt="foto2" className="md:w-[300px] md:h-[400px] h-[244px] rounded-[20px]" />
+                                <img loading="lazy" src={foto2} alt="foto2" className="md:w-[300px] md:h-[400px] h-[244px] rounded-[20px]" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="justify-center flex">
                             <div className="rounded-[20px] bg-contain bg-no-repeat bg-gradient-to-b from-[#00000087] to-teal-800">
-                                <img src={foto3} alt="foto2" className="md:w-[300px] md:h-[400px] h-[244px] rounded-[20px]" />
+                                <img loading="lazy" src={foto3} alt="foto2" className="md:w-[300px] md:h-[400px] h-[244px] rounded-[20px]" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="justify-center flex">
                             <div className="rounded-[20px] bg-contain bg-no-repeat bg-gradient-to-b from-[#00000087] to-teal-800">
-                                <img src={foto4} alt="foto2" className="md:w-[300px] md:h-[400px] h-[244px] rounded-[20px]" />
+                                <img loading="lazy" src={foto4} alt="foto2" className="md:w-[300px] md:h-[400px] h-[244px] rounded-[20px]" />
                             </div>
                         </SwiperSlide>
                     </Swiper>

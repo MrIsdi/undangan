@@ -26,17 +26,17 @@ export default function AboutVira({ cls }: props){
                 <div className={`bg-gradient-to-b from-[#00000087] to-teal-800 `}>
                     <div className="flex flex-col items-center mb-20">
                         <h1 className="text-white md:text-4xl text-xl md:mt-8 mb-0 mt-16">Class of</h1>
-                        <div className="md:h-[160px] h-[80px] flex justify-start items-start mb-12">
-                            <p className="self-start font-['My_Soul'] md:text-9xl text-7xl text-white mb-0">20</p>
-                            <p className="self-end font-['My_Soul'] md:text-9xl text-7xl text-white mb-0">23</p>
+                        <div className="md:h-[160px] h-[110px] flex justify-start items-start mb-12">
+                            <p className="self-start font-['My_Soul'] md:text-9xl text-8xl text-white mb-0">20</p>
+                            <p className="self-end font-['My_Soul'] md:text-9xl text-8xl text-white mb-0">23</p>
                         </div>
-                        <h3 className="text-white md:text-5xl text-3xl">Delvira Syafna, S. Si</h3>
+                        <h3 className="text-white md:text-5xl text-3xl font-bold">Delvira Syafna, S. Si</h3>
                         <h3 className="text-white md:text-4xl text-2xl italic font-thin">Bachelor Of Science</h3>
                         <div className="text-white mt-12">
-                            <p className="text-center mb-4 text-4xl font-bold">Saturday</p>
+                            <p className="text-center mb-4 md:text-4xl text-2xl font-bold">Saturday</p>
                             <p className="text-center mb-4 text-7xl font-bold">02</p>
-                            <p className="text-center mb-4 text-4xl font-bold">December</p>
-                            <p className="text-center mb-4 md:text-4xl text-xl font-semibold">13:00-16:00 WIB</p>
+                            <p className="text-center mb-4 md:text-4xl text-2xl font-bold">December</p>
+                            <p className="text-center mb-4 md:text-4xl text-lg font-semibold">13:00-16:00 WIB</p>
                         </div>
                     </div>
                     <Swiper

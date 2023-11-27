@@ -18,13 +18,11 @@
     <title>Undangan Wisuda</title>
   </head>
   <body>
+    <audio hidden controls autoplay preload="auto">
+      <source src="/musik.mpeg" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script>
-      const audio = new Audio("/musik.mpeg")
-      window.onload = () =>{
-        audio.play()
-      }
-    </script>
   </body>
 </html>

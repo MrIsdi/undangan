@@ -7,7 +7,7 @@ export default function App(){
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/vira/:name" element={<Vira />} />
+          <Route path="/invite/:name" element={<Vira />} />
         </Routes>
       </BrowserRouter>
     </>

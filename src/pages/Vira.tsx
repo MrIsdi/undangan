@@ -2,6 +2,7 @@ import { useState } from "react"
 import bg from "../assets/bg.png"
 import { useParams } from "react-router-dom"
 import AboutVira from "./AboutVira"
+import musik from "../assets/musik.mp3"
 
 export default function Vira(){
     const { name } = useParams()
@@ -11,6 +12,7 @@ export default function Vira(){
     const handleBtn = () =>{
         setUp("top-[-150%]")
         setShow("block")
+        new Audio(musik).play()
     }
     return(
         <>
